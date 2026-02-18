@@ -1,13 +1,13 @@
 module.exports = (client) => {
   client.once("ready", () => {
     console.log(`✅ Bot logged in as ${client.user.tag}`);
-    console.log("جميع الحقوق محفوظة © LAW");
+    console.log("");
 
     // تعيين حالة البوت (Presence)
     client.user.setPresence({
       activities: [
         {
-          name: "حقوق LAW - Discord Gang Bot",
+          name: " - Discord Gang Bot",
           type: 0 // Playing
         }
       ],
